@@ -1,0 +1,166 @@
+#header{
+    background:#ebebeb;
+    height:68px;
+    color:#333;
+    padding:20px 0;
+    font-size:18px;
+}
+#header>img{
+    margin:-6px 20px 0px 312px;
+}
+#header>b{
+    margin-left:20px;
+    font-weight:lighter;
+}
+#header+div{
+    background:#fffbe4;
+    font-size:12px;
+    text-align:center;
+    padding:15px 0;
+    color:#989898;
+}
+#body{
+    background:#081738;
+    position:relative;
+}
+#body>img{
+    margin-left:250px;
+}
+/*绝对定位部分*/
+#body>div{
+    position:absolute;
+    top:30px;
+    right:200px;
+    width:380px;height:530px;
+    background:#fff;
+}
+#body>div>p{
+    font-size:20px;
+    margin:20px 0px 33px 34px;
+    color:rgb(219,219,219);
+}
+#body>div>p>a{
+    text-decoration:none;
+    color:#333;
+    margin:0 37px;
+}
+#body>div>p>a:first-child{
+    color:rgb(180,7,7);
+}
+#body>div>p>a:hover{
+    color:rgb(180,7,7);
+}
+#body>div>input{
+    width:328px;height:46px;
+    margin-left:26px;
+    border:none;
+    border-bottom:1px solid rgb(219,219,219);
+    outline:none;
+    font-size:14px;
+}
+#body>div>a:nth-child(5){
+    font-size:12px;
+    display:block;
+    margin:15px 0px 15px 25px;
+    text-decoration:none;
+}
+#body>div>a:nth-child(5)>img{
+    margin:-2px 5px 0px 0px;
+}
+#body>div>a:nth-child(6){
+    width:328px;height:44px;
+    background:rgb(180,7,7);
+    line-height:44px;
+    text-align:center;
+    margin-left:25px;
+    border-radius:22px;
+    font-size:14px;
+    color:#fff;
+    display:block;
+    text-decoration:none;
+}
+#body>div>a:nth-child(6):hover{
+    background:rgb(220,7,7);
+}
+#body>div>input:nth-child(7){
+    height:14px;width:14px;
+    vertical-align:middle;
+    cursor:pointer;
+}
+#body>div>label:nth-child(8){
+    margin:20px 5px;
+    font-size:12px;
+    cursor:pointer;
+}
+#body>div>p:nth-child(9){
+    font-size:12px;
+    margin:0px 0px 41px 106px;
+    color:rgb(219,219,219);
+}
+#body>div>p:nth-child(9)>a{
+    text-decoration:none;
+    color:#007bff;
+    margin:0 15px;
+}
+#body>div>div.qtdlfs{
+    margin:auto;
+    text-align:center;
+}
+#body>div>div.qtdlfs>div{
+    width:60px;height:1px;
+    display:inline-block;
+    margin-top:0px;
+    background:#999;
+    
+}
+#body>div{
+    margin-left:59px;
+}
+#body>div>div.qtdlfs>span{
+    margin:0 30px;
+    color:#999;
+    font-size:12px;
+}
+#body>div>div.qtdlfs1{
+    margin:auto;
+}
+#body>div>div.qtdlfs1>a{
+    display:inline-block;
+    margin:15px 10px;
+    width:42px;height:42px;
+    background-image:url('../img/dlfs.jpg');
+    background-size:200px;
+}
+#body>div>div.qtdlfs1>a:first-child{
+    margin-left:95px;
+    background-position:-413px 187px;
+}
+#body>div>div.qtdlfs1>a:last-child{
+    background-position:-412px 121px;
+}
+#body>div>div.qtdlfs1>a:nth-child(2){
+    background-position:-279px 188px;
+}
+#body>div>span{
+    font-size:12px;
+    color:#999;
+    margin-left:28px;
+}
+#body>div>span>a{
+    text-decoration:none;
+}
+/* 底部 */
+body>div:nth-child(4){
+    width:960px;height:50px;
+    margin:30px auto;
+    text-align:center;
+}
+body>div:nth-child(4)>p{
+    margin:0px;
+    color:#aaa;
+    font-size:12px;
+}
+body>div:nth-child(4)>p>a{
+    text-decoration:none;
+    color:#aaa;
+}

@@ -1,0 +1,1129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>华为商城</title>
+    <link rel="stylesheet" href="./css/bootstrap.css"/>
+    <script src='./js/jquery.min.js'></script>
+    <script src='./js/popper.min.js'></script>
+    <script src='./js/bootstrap.min.js'></script>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="./css/login1.css"/>
+</head>
+<body>
+    <!--左侧固定定位-->
+    <ul id='left_fixed'>
+        <li></li>
+        <li><a href="#rxdp">热销单品</a></li>
+        <li><a href="#jptj">精品推荐</a></li>
+        <li><a href="#sj_nav">手机</a></li>
+        <li><a href="#dn_nav">笔记本电脑</a></li>
+        <li><a href="#jppb_nav">精品平板</a></li>
+        <li></li>
+    </ul>
+    <!-- 右下部返回顶部 -->
+    <div id='fhdb'>
+        <a href="#nav00">
+            <span class='carousel-control-prev-icon'></span>
+            <div>顶部</div>
+        </a>
+    </div>
+    <!-- 顶部弹出图片 -->
+    <a href="" id='tctp' class='alert alert-dismissible'>
+        <span class='close' data-dismiss='alert'>&times;</span>
+    </a>
+    <!-- 最顶部导航 -->
+    <div id='nav00'>
+        <ul class='breadcrumb' id='nav00_1'>
+            <li class='breadcrumb-item'><a href="">首页</a></li>
+            <li class='breadcrumb-item'><a href="">华为官网</a></li>
+            <li class='breadcrumb-item'><a href="">荣耀官网</a></li>
+            <li class='breadcrumb-item'><a href="">花粉俱乐部</a></li>
+            <li class='breadcrumb-item'><a href="">V码(优购码)</a></li>
+            <li class='breadcrumb-item'><a href="">企业购</a></li>
+            <li class='breadcrumb-item'><a href="">Select Region</a></li>
+            <li class='breadcrumb-item'>
+                <a href="">更多精彩<img src="./img/xjiantou.png" alt=""></a>
+                <img src="./img/sh_jiantou.png" alt="">
+                <ul>
+                    <li><a href="">EMUI</a></li>
+                    <li><a href="">应用市场</a></li>
+                    <li><a href="">华为终端云空间</a></li>
+                </ul>
+        </ul>
+        <ul id='nav00_2'>
+            <li>
+                <a href="#mymodal"  data-toggle="modal">请登录</a>                
+                <a href="" class='right_bd'>注册</a>
+            </li>
+            <li>
+                <a href="" class='right_bd'>我的订单</a>
+            </li>
+            <li class='bg'>
+                <a href="" class='right_bd'>客户服务<img src="./img/xjiantou.png" alt=""></a>
+                <img src="./img/sh_jiantou.png" alt="">
+                <div>
+                    <p><a href="">服务中心</a></p>
+                    <p><a href="">联系客服</a></p>
+                </div>
+            </li>
+            <li class='bg'>
+                <a href="" class='right_bd'>网站导航<img src="./img/xjiantou.png" alt=""></a>
+                <img src="./img/sh_jiantou.png" alt="">
+                <ul>
+                    <li><a href="">华为专区</a></li>
+                    <li><a href="">荣耀专区</a></li>
+                    <li><a href="">企业购</a></li>
+                    <li><a href="">会员频道</a></li>
+                </ul>
+            </li>
+            <li class='bg'>
+                <a href="" class='right_bd'>手机版<img src="./img/xjiantou.png" alt=""></a>
+                <img src="./img/sh_jiantou.png" alt="">
+                <ul>
+                    <li>
+                        <img src="./img/erweima1.png" alt="">
+                        <div>
+                            <p>华为商城APP</p>
+                            <p>新人专享好礼</p>
+                            <p>最高5000积分</p>
+                            <img src="./img/wechat1.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/erweima2.jpg" alt="">
+                        <div>
+                            <p>华为商城公众号</p>
+                            <p>微信扫一扫</p>
+                            <img src="./img/wechat2.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/erweima3.jpg" alt="">
+                        <div>
+                            <p>微信小程序</p>
+                            <img src="./img/wechat2.png" alt="">
+                        </div>
+                    </li>
+                </ul> 
+            </li>
+        </ul>
+    </div>
+    <!-- 首页导航 搜索框-->
+    <div id="nav0">
+        <a href=""><img src="./img/log.png" alt="" title="Vmall.com华为商城"/></a>
+        <ul>
+            <li>
+                <a href=""><img src="./img/nav_1.png" alt=""/></a>
+            </li>
+            <li>
+                <a href=""><img src="./img/nav_2.png" alt=""/></a>
+            </li>
+            <li>
+                <a href="">华为P30</a>
+            </li>
+            <li>
+                <a href="">荣耀20</a>
+            </li>
+            <li>
+                <a href="">Mate 20系列</a>
+            </li>
+            <li>
+                <a href="">荣耀V20</a>
+            </li>
+        </ul>
+        <div>
+            <input type="text"/>
+            <p id="ss1"><a href="">618特惠<img src="./img/sousuo1.png" alt=""/></a></p>
+            <p id="ss2"><a href="">荣耀20i</a></p>
+            <a href=""><img src="./img/sousuo.png" alt=""/></a>
+        </div>
+    </div>
+    <!--carousel轮播图 侧面导航 下部导航-->
+    <div id="car_nav">
+        <!--carousel轮播图-->
+        <div class="carousel" data-ride="carousel" id="_carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href=""><img src="./img/carousel1.jpg" alt=""/></a>
+                </div>
+                <div class="carousel-item">
+                    <a href=""><img src="./img/carousel2.jpg" alt=""/></a>
+                </div>
+                <div class="carousel-item">
+
+                    <a href=""><img src="./img/carousel3.jpg" alt=""/></a>
+                </div>
+                <div class="carousel-item">
+
+                    <a href=""><img src="./img/carousel4.jpg" alt=""/></a>
+                </div>
+                <div class="carousel-item">
+
+                    <a href=""><img src="./img/carousel5.jpg" alt=""/></a>
+                </div>
+                <div class="carousel-item">
+
+                    <a href=""><img src="./img/carousel6.jpg" alt=""/></a>
+                </div>
+                <div class="carousel-item">
+
+                    <a href=""><img src="./img/carousel7.jpg" alt=""/></a>
+                </div>
+                <div class="carousel-item">
+
+                    <a href=""><img src="./img/carousel8.jpg" alt=""/></a>
+                </div>
+                <div class="carousel-item">
+
+                    <a href=""><img src="./img/carousel9.jpg" alt=""/></a>
+                </div>
+            </div>
+
+            <a data-slide="prev" href="#_carousel" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a data-slide="next" href="#_carousel" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            <ul class="carousel-indicators">
+                <li data-target="#_carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#_carousel" data-slide-to="1"></li>
+                <li data-target="#_carousel" data-slide-to="2"></li>
+                <li data-target="#_carousel" data-slide-to="3"></li>
+                <li data-target="#_carousel" data-slide-to="4"></li>
+                <li data-target="#_carousel" data-slide-to="5"></li>
+                <li data-target="#_carousel" data-slide-to="6"></li>
+                <li data-target="#_carousel" data-slide-to="7"></li>
+                <li data-target="#_carousel" data-slide-to="8"></li>
+            </ul>
+        </div>
+        <!--侧面导航-->
+        <ul id="s_nav">
+            <li>
+                <p><a href="">手机</a></p>
+                <a href="">荣耀</a><a href="">HUAWEI P系列</a>
+                <ul>
+                    <li>
+                        <a href="" id='a1'><img src="./img/snav_1.png" alt="">荣耀</a>
+                        <a href=""><img src="./img/snav_2.png" alt="">HUAWEI nova系列</a>
+                    </li>
+                    <li>
+                         <a href="" id='a2'><img src="./img/snav_3.png" alt="">HUAWEI P系列</a>
+                         <a href=""><img src="./img/snav_4.png" alt="">华为畅享系列</a>
+                    </li>
+                    <li>
+                        <a href="" id='a3'><img src="./img/snav_5.png" alt="">HUAWEI Mate系列</a>
+                        <a href=""><img src="./img/snav_6.png" alt="">HUAWEI 麦芒系列</a>
+                    </li>
+                    <li>
+                        <a href="" id='a4'><img src="./img/snav_4.png" alt="">华为畅享系列</a>
+                        <a href=""><img src="./img/snav_4.png" alt="">移动4G+专区</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p><a href="">笔记本 & 平板</a></p>
+                <a href="">平板电脑</a><a href="">笔记本电脑</a>
+                <div>
+                </div>
+            </li>
+            <li>
+                <p><a href="">智能穿戴</a></p>
+                <a href="">手环</a><a href="">手表</a><a href="">VR</a>
+            </li>
+            <li>
+                <p><a href="">智能家居</a></p>
+                <a href="">路由器</a><a href="">电视盒子</a><a href="">照明</a>
+            </li>
+            <li>
+                <p><a href="">热销配件</a></p>
+                <a href="">保护壳</a><a href="">移动电源</a><a href="">耳机</a>
+            </li>
+            <li>
+                <p><a href="">增值服务 & 其他</a></p>
+                <a href="">服务器</a><a href="">AI计算平台</a>
+            </li>
+        </ul>
+        <!-- 下部导航 -->
+        <ul id='x_nav'>
+            <li>
+                
+                    <img src="./img/touxiang.png" alt="">
+                    <span>
+                        你好！ 请<a href="#mymodal"  data-toggle="modal">登录</a>/<a href="">注册</a>
+                        <div>
+                            <a href="">新人福利</a><a href="">会员频道</a>       
+                        </div>
+                    </span>        
+                
+            </li>
+            <li>
+                <ul>
+                    <li>
+                        <div></div>
+                        <a href="">企业购特惠</a>
+                    </li>
+                    <li>
+                        <div></div>
+                        <a href="">以旧换新</a>
+                    </li>
+                    <li>
+                        <div></div>
+                        <a href="">会员领券</a>
+                    </li>
+                    <li>
+                        <div></div>
+                        <a href="">nova 5 pro</a>
+                    </li>
+                    <li>
+                        <div></div>
+                        <a href="">荣耀数码</a>
+                    </li>
+                    <li>
+                        <div></div>
+                        <a href="">华为数码</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div>
+                    <span>公告</span>
+                    <ul>
+                        <li>
+                            <a href="">华为手机晒单抽8000份礼包活动公告</a>
+                        </li>
+                        <li>
+                            <a href="">花呗付款首单立减，最高618元</a>
+                        </li>
+                        <li>
+                            <a href="">购荣耀耳机赠电影兑换券及周边产品</a>
+                        </li>
+                        <li>
+                            <a href="">6月荣耀手机晒单抽奖活动公告</a>
+                        </li>
+                        <li>
+                            <a href="">高考福利 凭准考证购机赠大礼包</a>
+                        </li>
+                        <li>
+                            <a href="">华为手机晒单抽8000份礼包活动公告</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="./img/jlt_1.png" alt="">优购码
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/jlt_2.png" alt="">实名认证                           
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./img/jlt_3.png" alt="">补购保障
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+     <!-- f4 四张小图 -->
+     <div id='f4'>
+        <a href=""><img src="./img/f41.jpg" alt=""></a>
+        <a href=""><img src="./img/f42.jpg" alt=""></a>
+        <a href=""><img src="./img/f43.jpg" alt=""></a>
+        <a href=""><img src="./img/f44.png" alt=""></a>
+    </div>
+    <!-- 热销单品 -->
+    <h2 id='rxdp'>热销单品</h2>
+    <div id='rxdp_list'>
+        <a href=""><img src="./img/rxdp0.png" alt=""></a> 
+        <ul>
+            <li class='rxdp_f2'>
+                <a href=''>
+                        <img src="./img/rxdp1.png" alt="">
+                        <P>荣耀V20</P>
+                        <P>最高优惠900元</P>
+                        <P>￥2399</P>
+                </a>
+            </li>
+            <li class='rxdp_f6'>
+                <a href=''>
+                    <div>爆款</div>
+                    <img src="./img/rxdp2.png" alt="">
+                     <P>荣耀V20</P>
+                     <P>最高优惠900元</P>
+                     <P>￥799</P>
+                </a>
+            </li>
+            <li class='rxdp_f6'>
+                 <a href=''>
+                    <div>爆款</div>
+                     <img src="./img/rxdp3.png" alt="">
+                    <P>荣耀8X</P>
+                     <P>优惠200</P>
+                     <P>￥1199</P>
+                </a>
+            </li>
+            <li class='rxdp_f6'>
+                <a href=''>
+                    <div>618 特惠</div>
+                    <img src="./img/rxdp4.png" alt="">
+                    <P>华为畅享 9S</P>
+                    <P>最高下单立减250</P>
+                    <P>￥1499</P>
+                 </a>
+            </li>
+            <li class='rxdp_f6'>
+                <a href=''>
+                    <div>立减</div>
+                    <img src="./img/rxdp5.png" alt="">
+                    <P>HUAWEI Mate 20 Pro</P>
+                    <P>领券立减200|享6期免息</P>
+                    <P>￥5499</P>
+                </a>
+            </li>
+            <li class='rxdp_f6'>
+                <a href=''>
+                    <div>爆款</div>
+                    <img src="./img/rxdp6.png" alt="">
+                    <P>荣耀10青春版/P>
+                    <P>最高优惠400</P>
+                    <P>￥1099</P>
+                </a>
+            </li>
+            <li class='rxdp_f6'>
+                <a href=''>
+                    <div>618 特惠</div>
+                    <img src="./img/rxdp7.png" alt="">
+                    <P>华为畅享9 Plus</P>
+                    <P>最高下单立减200</P>
+                    <P>￥1399</P>
+                </a>
+            </li>
+            <li class='rxdp_f2'>
+                <a href=''>
+                    <img src="./img/rxdp8.png" alt="">
+                    <P>荣耀10</P>
+                    <P>最高优惠900元</P>
+                    <P>￥1799</P>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 精品推荐 -->
+    <h2 id='jptj'>精品推荐</h2>
+    <div class='carousel' data-ride='carousel' id='jptj_parent'>
+        <ul id='jptj_list' class='carousel-inner'>
+            <li class='carousel-item active'>
+                <ul>
+                    <li>
+                        <a href="">
+                            <div>
+                                <img src="./img/jptj1.png" alt="">
+                                <p>现货速发 享3期免息</p>
+                            </div>
+                            <p>HUAWEI MateBook 13</p>
+                            <p>￥5699</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>
+                                <img src="./img/jptj2.png" alt="">
+                                <p>限时最高降价411元+3期免息</p>
+                            </div>
+                            <p>荣耀MagicBook 2019 锐龙版</p>
+                            <p>￥3599</p>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="">
+                            <div>
+                                <img src="./img/jptj3.png" alt="">
+                                 <p>618限时优惠100元</p>
+                            </div>
+                             <p>HUAWEI FreeBuds 2 无线耳机</p>
+                            <p>￥699</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>
+                                <img src="./img/jptj4.png" alt="">
+                                 <p>直降200+赠118元配件</p>
+                            </div>
+                            <p>荣耀平板5 10.1英寸</p>
+                            <p>￥1199</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>
+                                <img src="./img/jptj5.png" alt="">
+                                    <p>最高直降200+3期免息</p>
+                            </div>
+                            <p>华为平板 M5 青春版</p>
+                            <p>￥1699</p>
+                        </a>
+                    </li>                                       
+                </ul>
+            </li>
+      <!--  -->
+            <li  class='carousel-item'>
+            <ul>
+                <li>
+                    <a href="">
+                        <div>
+                            <img src="./img/jptj6.png" alt="">
+                            <p>历史新低 169起</p>
+                        </div>
+                        <p>荣耀手环4</p>
+                        <p>￥169</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div>
+                            <img src="./img/jptj7.png" alt="">
+                            <p>享3期免息+晒单赠双肩包</p>
+                        </div>
+                        <p>HUAWEI MateBook 14</p>
+                        <p>￥5999</p>
+                    </a>
+                </li> 
+                <li>
+                    <a href="">
+                        <div>
+                            <img src="./img/jptj8.png" alt="">
+                             <p>新品预售 限量赠礼</p>
+                        </div>
+                         <p>华为mini 蓝牙音箱</p>
+                        <p>￥129</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div>
+                            <img src="./img/jptj9.png" alt="">
+                             <p>2K触摸屏二合一笔记本</p>
+                        </div>
+                        <p>HUAWEI MateBook E 2019款</p>
+                        <p>￥4999</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div>
+                            <img src="./img/jptj10.png" alt="">
+                                <p>到手价699期</p>
+                        </div>
+                        <p>荣耀手表魔法系列</p>
+                        <p>￥699</p>
+                    </a>
+                </li>                                       
+            </ul>
+            </li>
+        <!--  -->
+            <li  class='carousel-item'>
+            <ul>
+            <li>
+                <a href="">
+                    <div>
+                        <img src="./img/jptj11.png" alt="">
+                        <p>最高直降300元</p>
+                    </div>
+                    <p>HUAWEI nova 4e</p>
+                    <p>￥1999</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div>
+                        <img src="./img/jptj12.png" alt="">
+                        <p>限时直降70</p>
+                    </div>
+                    <p>荣耀小K2儿童手表</p>
+                    <p>￥229</p>
+                </a>
+            </li> 
+            <li>
+                <a href="">
+                    <div>
+                        <img src="./img/jptj13.png" alt="">
+                         <p>享6期免息</p>
+                    </div>
+                     <p>HUAWEI MateBook X Pro 2019款</p>
+                    <p>￥8999</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div>
+                        <img src="./img/jptj14.png" alt="">
+                         <p>18W双向快充</p>
+                    </div>
+                    <p>华为快充移动电源 20000mAh</p>
+                    <p>￥209</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <div>
+                        <img src="./img/jptj15.png" alt="">
+                            <p>华为路由</p>
+                    </div>
+                    <p>华为路由WS5200四核版（白色）</p>
+                    <p>￥239</p>
+                </a>
+            </li>                                       
+        </ul>
+            </li>
+        <!--  -->
+        </ul>
+        <a href="#jptj_parent" class='carousel-control-next' data-slide='next'>
+            <span class='carousel-control-next-icon'></span>
+        </a>
+        <a href="#jptj_parent" class='carousel-control-prev' data-slide='prev'>
+            <span class='carousel-control-prev-icon'></span>
+        </a>
+    </div>
+    <!-- 精品推荐与手机之间的轮播图 -->
+    <div class='carousel' id='carousel3' data-ride='carousel'>
+        <ul class='carousel-inner'>
+            <li class='carousel-item active'>
+                <a href=""><img src="./img/lbt31.jpg" alt=""></a>
+            </li>
+            <li class='carousel-item'>
+                <a href=""><img src="./img/lbt32.jpg" alt=""></a>
+            </li>
+            <li class='carousel-item'>
+                <a href=""><img src="./img/lbt33.jpg" alt=""></a>
+            </li>
+            <li class='carousel-item'>
+                <a href=""><img src="./img/lbt34.jpg" alt=""></a>
+            </li>
+            <li class='carousel-item'>
+                <a href=""><img src="./img/lbt35.jpg" alt=""></a>
+            </li>
+            <li class='carousel-item'>
+                <a href=""><img src="./img/lbt36.jpg" alt=""></a>
+            </li>
+            <li class='carousel-item'>
+                <a href=""><img src="./img/lbt37.jpg" alt=""></a>
+            </li>
+            <li class='carousel-item'>
+                <a href=""><img src="./img/lbt38.jpg" alt=""></a>
+            </li>
+        </ul>
+        <ul class='carousel-indicators'>
+            <li data-target='#carousel3' data-slide-to='0' class='active'></li>
+            <li data-target='#carousel3' data-slide-to='1'></li>
+            <li data-target='#carousel3' data-slide-to='2'></li>
+            <li data-target='#carousel3' data-slide-to='3'></li>
+            <li data-target='#carousel3' data-slide-to='4'></li>
+            <li data-target='#carousel3' data-slide-to='5'></li>
+            <li data-target='#carousel3' data-slide-to='6'></li>
+            <li data-target='#carousel3' data-slide-to='7'></li>
+        </ul>
+    </div>
+    <!-- 手机 -->
+     <!-- 手机导航 -->
+    <div id='sj_nav'>
+        <h2>手机</h2>
+        <ul>
+            <li><a href="">HUAWEI Mate系列</a></li>
+            <li><a href="">荣耀</a></li>
+            <li><a href="">HUAWEI P系列</a></li>
+            <li><a href="">荣耀畅玩系列</a></li>
+            <li><a href="">HUAWEI nove系列</a></li>
+            <li><a href="">华为畅享系列</a></li>
+            <li><a href="">HUAWEI 麦芒系列</a></li>
+            <li><a href="">移动4G+专区</a></li>
+        </ul>
+        <a href="">查看更多<img src="./img/sj_sanjiao.png" alt=""></a>
+    </div>
+     <!-- 手机列表 -->
+    <ul id='sj_list'>
+        <li>
+            <a href="">
+                <img src="./img/sj_list1.png" alt="">
+            </a>
+        </li>
+        <li>
+            <a href=""  class='sj_lista'>
+                <img src="./img/sj_list2.png" alt="">
+                <p>荣耀10</p>
+                <p>最高优惠1000元</p>
+                <p>￥1799</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='sj_listb'>
+                <div>特惠</div>
+                <img src="./img/sj_list3.png" alt="">
+                <p>HUAWEI nova 4e</p>
+                <p>赠多彩蓝牙耳机</p>
+                <p>￥1999</p>
+            </a>
+        </li>
+        <li>
+            <a href=""  class='sj_lista'>
+                <img src="./img/sj_list4.png" alt="">
+                <p>荣耀畅玩8A</p>
+                <p>标配版到手机599</p>
+                <p>￥799</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='sj_listb'>
+                    <div>618 特惠</div>
+                    <img src="./img/sj_list5.png" alt="">
+                    <p>华为畅享9</p>
+                    <p>32G限时直降200元</p>
+                    <p>￥799</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='sj_lista'>
+                <img src="./img/sj_list6.png" alt="">
+                <p>荣耀Magic2</p>
+                <p>最高优惠1700元</p>
+                <p>￥2499</p>
+            </a></li>
+        <li>
+            <a href="" class='sj_listb'>
+                <div>618 特惠</div>
+                <img src="./img/sj_list7.png" alt="">
+                <p>华为畅享 9S</p>
+                <p>最高下单立减250</p>
+                <p>#1499</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='sj_lista'>
+                <img src="./img/sj_list8.png" alt="">
+                <p>荣耀8X Max</p>
+                <p>最高优惠400</p>
+                <p>￥1499</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='sj_listb'>
+                <div>618 特惠</div>
+                <img src="./img/sj_list9.png" alt="">
+                <p>华为畅享9 Plus</p>
+                <p>最高下单立减200</p>
+                <p>￥1399</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='sj_listb'>
+                <div>特惠</div>
+                <img src="./img/sj_list10.png" alt="">
+                <p>荣耀Note10</p>
+                <p>最高优惠1000元</p>
+                <p>￥1899</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='sj_listb'>
+                <div>新品</div>
+                <img src="./img/sj_list11.png" alt="">
+                <p>华为麦芒8</p>
+                <p>领券立减50</p>
+                <p>￥1899</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='sj_listb'>
+                <div>热卖</div>
+                <img src="./img/sj_list12.png" alt="">
+                <p>荣耀畅玩8C</p>
+                <p>标配版到手价849</p>
+                <p>￥899</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='sj_lista'>
+                <img src="./img/sj_list13.png" alt="">
+                <p>HUAWEI nova 3i</p>
+                <p>6期免息</p>
+                <p>￥2199</p>
+            </a></li>
+        <li>
+            <a href="" class='sj_lista'>
+                <img src="./img/sj_list14.png" alt="">
+                <p>荣耀畅玩7</p>
+                <p>下单立减50元</p>
+                <p>￥599</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='sj_lista'>
+                <img src="./img/sj_list15.png" alt="">
+                <p>HUAWEI Mate 20 X</p>
+                <p>领券立减200 享12期免息</p>
+                <p>￥4499</p>
+            </a>
+        </li>
+    </ul>
+    <!-- 笔记本电脑 -->
+        <!-- 笔记本电脑导航 -->
+    <div id='dn_nav'>
+        <h2>笔记本电脑</h2>
+        <ul>
+            <li><a href="">平板电脑</a></li>
+            <li><a href="">笔记本电脑</a></li>
+            <li><a href="">笔记本配件</a></li>
+        </ul>
+        <a href="">查看更多<img src="./img/sj_sanjiao.png" alt=""></a>
+    </div>
+        <!-- 笔记本电脑列表 -->
+    <ul id='dn_list'>
+        <li>
+            <a href="">
+                <img src="./img/dn_list1.jpg" alt="">
+            </a>
+        </li>
+        <li>
+            <a href="" class='dn_listb'>
+                <div>618 特惠</div>
+                <img src="./img/dn_list2.png" alt="">
+                <p>荣耀MagicBook 2019锐龙版</p>
+                <p>新品现货+3期免息</p>
+                <p>￥3999</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='dn_lista'>
+                <img src="./img/dn_list3.png" alt="">
+                <p>HUAWEI MateBook 13</p>
+                <p>赠蓝牙鼠标 享3期免息</p>
+                <p>￥5699</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='dn_listb'>
+                <div>618 特惠</div>
+                <img src="./img/dn_list4.png" alt="">
+                <p>荣耀MagicBook</p>
+                <p>最高直降500元+6期免息</p>
+                <p>￥4499</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='dn_lista'>
+                <img src="./img/dn_list5.png" alt="">
+                <p>HUAWEI MateNook 14</p>
+                <p>享3期免息+晒单赠双肩包</p>
+                <p>￥5999</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='dn_listb'>
+                <div>618 特惠</div>
+                <img src="./img/dn_list6.png" alt="">
+                <p>荣耀MagicBook 锐龙版</p>
+                <p>限时直降700元+6期免息</p>
+                <p>￥3599</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='dn_lista'>
+                <img src="./img/dn_list7.png" alt="">
+                <p>HUAWEI MateBook E 2019款</p>
+                <p>享3期免息+赠红酒券包</p>
+                <p>￥3999</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='dn_lista'>
+                <img src="./img/dn_list8.png" alt="">
+                <p>HUAWEI MateBook D</p>
+                <p>限量赠配件礼包+3期免息</p>
+                <p>￥5188</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='dn_lista'>
+                <img src="./img/dn_list9.png" alt="">
+                <p>HUAWEI MateBook X Pro</p>
+                <p>2019款 享6期免息</p>
+                <p>￥7999</p>
+            </a>
+        </li>
+        <li>
+            <a href="" class='dn_lista'>
+                <img src="./img/dn_list10.png" alt="">
+                <p>HUAWEI MateBook E</p>
+                <p>限量赠配件礼包</p>
+                <p>￥4288</p>
+            </a>
+        </li>
+    </ul>
+    <!-- 精品平板 -->
+        <!-- 精品平板导航 -->
+        <div id='jppb_nav'>
+            <h2>精品平板</h2>
+            <ul>
+                <li><a href="">平板电脑</a></li>
+                <li><a href="">笔记本电脑</a></li>
+                <li><a href="">笔记本配件</a></li>
+            </ul>
+            <a href="">查看更多<img src="./img/sj_sanjiao.png" alt=""></a>
+        </div>
+        <!-- 精品平板列表 -->
+        <ul id='jppb_list'>
+            <li>
+                <a href="">
+                    <img src="./img/jppb_list1.jpg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="" class='jppb_listb'>
+                    <div>618 特惠</div>
+                    <img src="./img/jppb_list2.png" alt="">
+                    <p>荣耀平板5 10.1英寸</p>
+                    <p>最高直降200+6期免息</p>
+                    <p>￥1199</p>
+                </a>
+            </li>
+            <li>
+                <a href="" class='jppb_lista'>
+                    <img src="./img/jppb_list3.png" alt="">
+                    <p>华为平板 M5 青春版 10.1英寸</p>
+                    <p>最高直降100+3期免息</p>
+                    <p>￥2349</p>
+                </a>
+            </li>
+            <li>
+                <a href="" class='jppb_listb'>
+                    <div>618 特惠</div>
+                    <img src="./img/jppb_list4.png" alt="">
+                    <p>荣耀平板5 8英寸</p>
+                    <p>最高直降150+6期免息</p>
+                    <p>￥949</p>
+                </a>
+            </li>
+            <li>
+                <a href="" class='jppb_lista'>
+                    <img src="./img/jppb_list5.png" alt="">
+                    <p>华为畅享平板</p>
+                    <p>最高直降50+3期免息</p>
+                    <p>￥1249</p>
+                </a>
+            </li>
+            <li>
+                <a href="" class='jppb_listb'>
+                    <div>618 特惠</div>
+                    <img src="./img/jppb_list6.png" alt="">
+                    <p>荣耀Waterplay</p>
+                    <p>限时直降300元+3期免息</p>
+                    <p>￥1299</p>
+                </a>
+            </li>
+            <li>
+                <a href="" class='jppb_lista'>
+                    <img src="./img/jppb_list7.png" alt="">
+                    <p>华为平板 M5 8.4英寸</p>
+                    <p>限时直降200元</p>
+                    <p>￥1888</p>
+                </a>
+            </li>
+            <li>
+                <a href="" class='jppb_lista'>
+                    <img src="./img/jppb_list8.png" alt="">
+                    <p>荣耀畅玩平板2 9.6英寸</p>
+                    <p>限时直降50元</p>
+                    <p>￥1049</p>
+                </a>
+            </li>
+            <li>
+                <a href="" class='jppb_lista'>
+                    <img src="./img/jppb_list9.png" alt="">
+                    <p>华为平板 M5 青春版 8.0英寸</p>
+                    <p>最高直降100+3期免息</p>
+                    <p>暂无报价</p>
+                </a>
+            </li>
+            <li>
+                <a href="" class='jppb_lista'>
+                    <img src="./img/jppb_list10.png" alt="">
+                    <p>荣耀Waterplay 8英寸</p>
+                    <p>最高直降200元</p>
+                    <p>￥1499</p>
+                </a>
+            </li>
+        </ul>
+    <!--新人见面礼-->
+    <a href="" id='xrjml'>
+        <img src="./img/xrjml.jpg" alt="" title="新人频道">
+    </a>
+    <!-- 底部内容 -->
+        <!-- 底部内容1 -->
+    <div id='db_1'>   
+        <ul>
+            <li>
+                <a href=""><img src="./img/db1.png" alt=""></a>
+                <a href="">百强企业 品质保障</a>
+            </li>
+            <li>
+                <a href=""><img src="./img/db2.png" alt=""></a>
+                <a href="">7天退货 15天换货</a>
+            </li>
+            <li>
+                <a href=""><img src="./img/db3.png" alt=""></a>
+                <a href="">48元起免运费</a>
+            </li>
+            <li>
+                <a href=""><img src="./img/db4.png" alt=""></a>
+                <a href="">1000家维修网点 全国联保</a>
+            </li>
+        </ul>
+        
+   
+    
+    </div>
+    <div id='db_2'>
+        <div>
+            <ul>
+                    <li>
+                        <ul>
+                            <li>购物相关</li>
+                            <li><a href="">购物指南</a></li>
+                            <li><a href="">配送方式</a></li>
+                            <li><a href="">支付方式</a></li>
+                            <li><a href="">常见问题</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>保修与退换货</li>
+                            <li><a href="">保修政策</a></li>
+                            <li><a href="">退换货政策</a></li>
+                            <li><a href="">退换货流程</a></li>
+                            <li><a href="">保修状态查询</a></li>
+                            <li><a href="">配件防伪查询</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>维修与技术支持</li>
+                            <li><a href="">售后网点</a></li>
+                            <li><a href="">预约维修</a></li>
+                            <li><a href="">手机寄修</a></li>
+                            <li><a href="">备件价格查询</a></li>
+                            <li><a href="">上门服务</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>特色服务</li>
+                            <li><a href="">防伪查询</a></li>
+                            <li><a href="">补购保障</a></li>
+                            <li><a href="">以旧换新</a></li>
+                            <li><a href="">礼品包装</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>关于我们</li>
+                            <li><a href="">公司介绍</a></li>
+                            <li><a href="">华为商城简介</a></li>
+                            <li><a href="">华为线下门店</a></li>
+                            <li><a href="">荣耀线下门店</a></li>
+                            <li><a href="">诚征英才</a></li>
+                            <li><a href="">意见反馈</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>友情链接</li>
+                            <li><a href="">网站地图</a></li>
+                            <li><a href="">华为应用商城</a></li>
+                            <li><a href="">万表网</a></li>
+                            <li><a href="">中商情报网</a></li>
+                            <li><a href="">刷机精灵</a></li>
+                        </ul>
+                    </li>
+            </ul>
+            <div>
+                <p>400-088-6888</p>
+                <p>7x24小时客服热线（仅收市话费）</p>
+                <a href="">在线客服</a>
+                <span>
+                    关注Vmall：<a href=""><img src="./img/db2_1.png" alt=""><img src="./img/erweima2.jpg" alt=""></a>
+                    <a href=""><img src="./img/db2_2.png" alt=""></a>
+                    <a href=""><img src="./img/db2_3.png" alt=""></a>
+                    <a href=""><img src="./img/db2_4.png" alt=""></a>       
+                </span>
+            </div>
+        </div>
+    </div>
+    <div id='db_3'>
+        <div>
+            <a href=""><img src="./img/db3_1.png" alt="" title='华为商城'></a>
+            <div>
+                <p>
+                    <a href="">华为集团</a> |
+                    <a href="">华为CBG官网</a> |
+                    <a href="">荣耀官网</a> |
+                    <a href="">花粉俱乐部</a> |
+                    <a href="">华为应用市场</a> |
+                    <a href="">EMUI</a> |
+                    <a href="">华为终端云空间</a> |
+                    <a href="">开发者联盟</a>|
+                    <a href="">华为商城手机版</a> |
+                    <a href="">网站地图</a>
+                </p>
+                <p>
+                    <a href="">隐私声明</a>&nbsp;
+                    <a href="">服务协议</a>&nbsp;
+                    <a href="">COOKIES</a>&nbsp;
+                    Copyright © 2012-2019 华为终端有限公司 版权所有
+                    <a href="">粤ICP备19015064号-4</a> |
+                    <a href="">粤公网安备 44190002003939号</a>
+                </p>
+                <p>增值电信业务经营许可证：粤B2-20190762|备案主题编号：44201919072182</p>
+            </div>
+            <a href=""><img src="./img/db3_2.jpg" alt="" title="TRUSTe隐私认证"></a>
+            <a href=""><img src="./img/db3_3.png" alt="" title="电子营业执照"></a>
+        </div>
+    </div>
+    <!-- 登录 -->
+    <div id="mymodal" class="modal">
+            <div class="modal-dialog">
+                <div id='login' class="modal-content">
+                    <div id='login1' class="modal-header">
+                        <a href="#mymodal" class="close" data-dismiss="modal">&times;</a>
+                    </div>
+                    <div id='login2' class="modal-body">
+                        <div>
+                            <p><a href="">账号登录</a>|<a href="">扫码登录</a></p>
+                            <input type="text" placeholder='手机号/邮政地址/华为号'><br>
+                            <input type="password" placeholder='密码'>
+                            <a href=""><img src="./img/sj_log.png" alt="">短信验证码登录</a>
+                            <a href="">登录</a>
+                            <input type="checkbox" id='rem'><label for="rem">记住华为账号</label>
+                            <p><a href="">注册账号</a>|<a href="">忘记密码？</a></p>
+                            <div class='qtdlfs'>
+                                <div></div><span>其他方式登录</span><div></div>
+                            </div>
+                            <div class='qtdlfs1'>
+                                <a href=""></a>
+                                <a href=""></a>
+                                <a href=""></a>
+                            </div>
+                            <span>继续访问即代表您已同意<a href="">华为商城服务协议</a>和<a href="">华为隐私政策</a></span>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            </div>
+</body>
+</html>

@@ -1,0 +1,144 @@
+div#login{
+    width:500px;height:700px;
+    margin-left:auto;
+    background:rgba(153,153,153,0.4);
+}
+div#login:before{
+    content:'';
+    display:table;
+}
+div#login>div#login1{
+    width:498px;height:29px;
+    background:rgb(165,27,27);
+    margin:0 auto;
+}
+div#login1.modal-header .close {
+    padding: 1rem;
+    margin: -2rem -1rem -1rem auto;
+  }
+div#login>div#login2{
+    width:498px;height:601px;
+    margin:auto;
+    background:#fff;
+}
+div#login>div#login2:before{
+    content:'';
+    display:table;
+}
+div#login>div#login2>div:first-child{
+    width:380px;height:530px;
+    margin:auto;
+}
+div#login>div#login2>div:first-child>p{
+    font-size:20px;
+    margin:20px 0px 33px 34px;
+    color:rgb(219,219,219);
+}
+div#login>div#login2>div:first-child>p>a{
+    text-decoration:none;
+    color:#333;
+    margin:0 37px;
+}
+div#login>div#login2>div:first-child>p>a:first-child{
+    color:rgb(180,7,7);
+}
+div#login>div#login2>div:first-child>p>a:hover{
+    color:rgb(180,7,7);
+}
+div#login>div#login2>div:first-child>input{
+    width:328px;height:46px;
+    margin-left:26px;
+    border:none;
+    border-bottom:1px solid rgb(219,219,219);
+    outline:none;
+}
+div#login>div#login2>div:first-child>a:nth-child(5){
+    font-size:12px;
+    display:block;
+    margin:15px 0px 15px 25px;
+    text-decoration:none;
+}
+div#login>div#login2>div:first-child>a:nth-child(5)>img{
+    margin:-2px 5px 0px 0px;
+}
+div#login>div#login2>div:first-child>a:nth-child(6){
+    width:328px;height:44px;
+    background:rgb(180,7,7);
+    line-height:44px;
+    text-align:center;
+    margin-left:25px;
+    border-radius:22px;
+    font-size:14px;
+    color:#fff;
+    display:block;
+    text-decoration:none;
+}
+div#login>div#login2>div:first-child>a:nth-child(6):hover{
+    background:rgb(220,7,7);
+}
+div#login>div#login2>div:first-child>input:nth-child(7){
+    height:14px;width:14px;
+    vertical-align:middle;
+    cursor:pointer;
+}
+div#login>div#login2>div:first-child>label:nth-child(8){
+    margin:20px 5px;
+    font-size:12px;
+    cursor:pointer;
+}
+div#login>div#login2>div:first-child>p:nth-child(9){
+    font-size:12px;
+    margin:0px 0px 116px 106px;
+    color:rgb(219,219,219);
+}
+div#login>div#login2>div:first-child>p:nth-child(9)>a{
+    text-decoration:none;
+    color:#007bff;
+    margin:0 15px;
+}
+div#login>div#login2>div:first-child>div.qtdlfs{
+    margin:auto;
+}
+div#login>div#login2>div:first-child>div.qtdlfs>div{
+    width:60px;height:1px;
+    display:inline-block;
+    margin-top:0px;
+    background:#999;
+    
+}
+div#login>div#login2>div:first-child>div.qtdlfs>div:first-child{
+    margin-left:59px;
+}
+div#login>div#login2>div:first-child>div.qtdlfs>span{
+    margin:0 30px;
+    color:#999;
+    font-size:12px;
+}
+/* div#login>div#login2>div:first-child>div.qtdlfs1{
+    margin:auto;
+} */
+div#login>div#login2>div:first-child>div.qtdlfs1>a{
+    display:inline-block;
+    margin:15px 10px;
+    width:42px;height:42px;
+    background-image:url('../img/dlfs.jpg');
+    background-size:200px;
+}
+div#login>div#login2>div:first-child>div.qtdlfs1>a:first-child{
+    margin-left:95px;
+    background-position:-413px 187px;
+}
+div#login>div#login2>div:first-child>div.qtdlfs1>a:last-child{
+    background-position:-412px 121px;
+}
+div#login>div#login2>div:first-child>div.qtdlfs1>a:nth-child(2){
+    background-position:-279px 188px;
+}
+div#login>div#login2>div:first-child>span{
+    font-size:12px;
+    color:#999;
+    margin-left:28px;
+}
+div#login>div#login2>div:first-child>span>a{
+    text-decoration:none;
+}
