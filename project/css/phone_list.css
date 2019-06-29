@@ -17,13 +17,13 @@ ul{
 }
 /* 各个模块在宽度大于1200px下居中显示 */
 @media screen and (min-width:1201px){
-    div#nav,div#classification,div#order,div#phone_list{
+    div#nav,div#classification,div#order,div#phone_list,div#paging{
         margin:auto;
     }  
 }
 /* 各个模块在宽度小于1200px下靠左显示，水平方向溢出隐藏*/
 @media screen and (max-width:1200px){
-    div#nav,div#classification,div#order,div#phone_list{
+    div#nav,div#classification,div#order,div#phone_list,div#paging{
         margin-left:0;
         overflow-x:hidden;
     }  
@@ -92,6 +92,12 @@ div#phone_list{
     width:1200px;
     margin-top:20px;
 }
+div#phone_list>ul{
+    width:1220px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
 div#phone_list>ul>li{
     width:244px;
     height:384px;
@@ -99,16 +105,88 @@ div#phone_list>ul>li{
 div#phone_list>ul>li>div{
     width:224px;
     height:364px;
+    margin:0 20px 20px 0;
     border:1px solid #dedede;
     text-align:center;
+}
+div#phone_list>ul>li>div:hover{
+    border:1px solid #e01d20;
 }
 div#phone_list a>img{
     width:180px;
     margin:30px 0;   
+}
+div#phone_list>ul>li>div>p:nth-child(2)>a{
+    color:#666;
+}
+div#phone_list>ul>li>div>p:nth-child(2)>a:hover{
+    color:#e01d20;
 }
 div#phone_list>ul>li>div>p:nth-child(3){
     color:#e01d20;
     font-size:18px;
     font-weight:bold;
     margin:20px 0px;
+}
+div#phone_list>ul>li>div>a:nth-child(4){
+    display:inline-block;
+    margin-top:10px;
+    height:30px;width:112px;
+    line-height:30px;
+    color:#e01d20;
+    border-top:1px solid #dedede;
+    border-right:1px solid #dedede;
+}
+div#phone_list>ul>li>div>a:nth-child(4):hover{
+    color:#fff;
+    background:#e01d20
+}
+div#phone_list>ul>li>div>span{
+    display:inline-block;
+    height:30px;width:111px;
+    line-height:30px;
+    border-top:1px solid #dedede;
+}
+/* 分页导航 */
+div#paging{
+    width:1200px;
+    height:30px;
+    margin-bottom:40px;
+}
+div#paging>ul{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+div#paging>ul li{
+    width:7px;
+    height:28px;
+    line-height:28px;
+    padding:0 7px;
+    margin-left:10px;
+}
+div#paging>ul>ul{
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+/* div#paging>ul>ul>li>a:active{
+    color:#e01d20;
+} */
+div#paging>ul li:hover>a{
+    color:#e01d20;
+}
+div#paging>ul>li:first-child,div#paging>ul>li:last-child{
+    width:28px;height:28px;
+    padding:0px;
+    font-size:18px;
+    text-align:center;
+    border:1px solid #dddcdb;
+    background:#fafafa;
+}
+div#paging>ul>li:first-child:hover,div#paging>ul>li:last-child:hover{
+    background:#000;
+}
+div#paging>ul>li:first-child:hover>a,div#paging>ul>li:last-child:hover>a{
+    color:#fff;
 }
